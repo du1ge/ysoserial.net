@@ -20,8 +20,7 @@ jobs:
           mkdir release
           move D:\a\ysoserial.net\ysoserial.net\ysoserial\bin\Release .\release
       - name: Upload artifact
-        uses: actions/upload-artifact@v1.0.0
+        uses: actions/upload-artifact@v3
         with:
           name: ysoserial-${{ github.sha }}
           path: .\release
-
