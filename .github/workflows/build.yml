@@ -24,3 +24,4 @@ jobs:
         with:
           name: ysoserial-${{ github.sha }}
           path: .\release
+
